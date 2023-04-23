@@ -1,0 +1,43 @@
+In-domain datasets.
+
+SuperGLUE:
+Go to https://super.gluebenchmark.com/tasks and click "Download All Data" button at the bottom of the page.
+
+CQA:
+Go to https://www.tau-nlp.sites.tau.ac.il/commonsenseqa and click on the "Train", "Dev", and "Test" buttons to download
+the data for CQA.
+
+RACE:
+Go to https://www.cs.cmu.edu/~glai1/data/race/ and click on the highlighted link.
+
+MPE:
+Go to https://github.com/aylai/MultiPremiseEntailment and either download or clone the repository. The data is in the
+data folder.
+
+SciTail:
+Go to https://allenai.org/data/scitail and click on the blue "Download" button.
+
+Out-of-domain datasets.
+
+SNLI:
+Go to https://nlp.stanford.edu/projects/snli/ and click on the download link.
+
+MED:
+Go to https://github.com/verypluming/MED and either download or clone the repository.
+
+PIQA:
+Go to https://yonatanbisk.com/piqa/ and click on the blud "Download data>>" button.
+
+SIQA:
+Go to https://leaderboard.allenai.org/socialiqa/submissions/get-started and click on the download link.
+
+ReClor:
+Go to https://whyu.me/reclor/ and click on the download link.
+
+DREAM:
+Go to https://github.com/nlpdata/dream/tree/master/data and either clone or download the repository. The data is in the
+data folder.
+
+StrategyQA:
+Go to https://allenai.org/data/strategyqa and click on the blue "download" button.
+Additionally, you can download or clone the following GitHub repository https://github.com/eladsegal/strategyqa
