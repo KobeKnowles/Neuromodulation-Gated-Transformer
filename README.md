@@ -1,7 +1,8 @@
 # Neuromodulation Gated Transformer
 
-This repository contains all of the code used to conduct the experiments for our ICLR 2023 Tiny Paper submission for the paper titled "Neuromodulation Gated Transformer". This repository does not include the implementation of the model/architecture, which 
-is instead stored in another GitHub repository (https://github.com/KobeKnowles/transformers-NGT).
+This repository contains the code used to conduct the experiments for our ICLR 2023 Tiny Paper submission for the 
+paper titled "Neuromodulation Gated Transformer". This repository does not include the implementation of the 
+model/architecture, which is instead stored in another GitHub repository (https://github.com/KobeKnowles/transformers-NGT).
 
 ## Data Loaders
 
@@ -23,15 +24,15 @@ All files used for training (and prediction generation) are in the training_file
 
 The training and prediction files used to generate the results for Table 1 and 4 are in the superGLUE_10_epochs folder.
 
-### Multi-Task Training Regime (other experiments not included in the submission).
+### Multi-Task Training Regime (other experiments not included Neuromodulation Gated Transformer paper)
 
 The training and prediction files for the multi-task training regime are in the general_experiments folder.
 
-### Ablation Study (other experiments not included in the submission)
+### Ablation Study (other experiments not included Neuromodulation Gated Transformer paper)
 
 The training and prediction files for the ablation study are in the ablation_aux_toks folder.
 
-### Neuromodulation Probe (other experiments not included in the submission)
+### Neuromodulation Probe (other experiments not included Neuromodulation Gated Transformer paper)
 
 The code for the neuromodulation probe is in the probe_neuromodulation folder.
 
@@ -43,9 +44,9 @@ The experiments regarding the comparison of the start and end positions is in th
 
 The exact environment we used to conduct experiments is shown in the dependnecies.txt file. The important modules are
 a working TensorFlow 2.4.1 environment (including all relevant dependencies) and a custom 
-transformers module with neuromodulation support (https://github.com/KobeKnowles/transformers-NGT).
+transformers library with neuromodulation support (https://github.com/KobeKnowles/transformers-NGT).
 
-To install the custom transformers package you need to run:
+The following can be used to install the custom transformers library:
 
 pip install git+https://github.com/KobeKnowles/transformers-NGT@neuromodulation-gating
 
@@ -59,7 +60,8 @@ The custom transformers module with support for neuromodulation can be found at 
 To view the changes to the code go to src/transformers/models/bert. We have modified the modeling_tf_bert.py and 
 configuration_bert.py files with support for neuromodulation. For modeling_tf_bert.py go directly to line 530 (the 
 class TfBertEncoder) to see the modifications to the code. Additionally, in the configuration_bert.py file we added
-support for parameters relevant to neuromodulation that will be used by the bert model in modeling_tf_bert.py. Some of the changes made are for additional experiments not included in the submitted paper.
+support for parameters relevant to neuromodulation that will be used by the bert model in modeling_tf_bert.py. 
+Some of the changes made are for additional experiments not included in the Neuromodulation Gated Transformer paper.
 
 ## Instructions on How to Run Models
 
