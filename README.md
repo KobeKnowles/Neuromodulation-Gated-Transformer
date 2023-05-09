@@ -65,7 +65,7 @@ Some of the changes made are for additional experiments not included in the Neur
 
 ## Instructions on How to Run Models
 
-This will be provided in the non-anonymized version when the code can actually be downloaded.
+A bert model can be loaded nearly identical to that or the vanilla transformer library. Differences include in the bert config file and other optional inputs, where details follow. Additional parameters in the bert config file are: gating_block_num_layers (the number of layers in a gating block), gating_block_end (if there is a gating block at the end position), gating_block_end_position (the layer the end gating block is inserted after), gating_block_middle (if there is a gating block at the middle position), gating_block_middle_position (the layer the middle gating block is inserted after), gating_block_start (if there is a gating block at the end position), gating_block_start_position (the layer the start gating block is inserted after), nm_gating (if the gating block performs gating or acts as additional layers), cls_dense_layer_number_of_options (the number of output options), is_diagnostics (diagnostic details are printed out during execution). 
 
 
 
